@@ -4,103 +4,100 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>On the job </title>
-    <style>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
 
-        nav {
-            background-color: #f0f0f0;
-            padding: 10px;
-        }
-        nav ul {
-            list-style: none;
-            margin: 0;
-            padding: 0;
-        }
-        nav  li {
-            display: inline;
-            margin-right: 20px;
-        }
-        a {
-            text-decoration: none;
-            color: #333;
-        }
-    </style>
-    <nav>
-        <h2>NavBar</h2>
-        <div class="nav-container">
-          <ul>
-            <li><a href="about.html">About Us</a></li>
-            <li><a href="dev-favorites>html">Dev Favorites</a></li>
-            <li><a href="location.html">Location</a></li>
-            <li><a href="hours.html">Hours</a></li>
-        </ul>
-      </div>
-      </nav>
-       <div class="container hero-image">
-        <h2>Hero Section </h2>
-        <img src="./assets/images/cesar-bretana-gonzalez-a3dhUC7EhYg-unsplash.jpg" alt=" hero image " height="200px">
-        <p><b> Title:</b> Dev Dish Food Truck & Restaurant </p>
-       </div> 
-     <div class="container about-us"></div>
-    <h2>About Us</h2>
-    <p><b>Heading:</b> About Us</p>
-    <p><b>Paragraph 1:</b> What's so great about combining the worlds of coding and cuisine? Dev Dish was founded by two passionate developers who turned their love for software into a culinary adventure. After years of coding by day and cooking by night, they decided to merge their two passions and create something extraordinary.</p>
-    <p><b>Paragraph 2:</b> Dev Dish brings a unique twist to the food truck scene, offering a menu full of creative, tech-inspired dishes. Whether you're a tech enthusiast or a food lover, our offerings are designed to satisfy both your appetite and your curiosity.</p>
-    <p><b>Paragraph 3:</b> Dev Dish is the brainchild of Alex and Jamie, two friends who met at a hackathon and discovered a shared love for innovative cuisine. With a background in software development and a knack for culinary creativity, they embarked on a journey to deliver delicious, tech-themed dishes to the community.</p>
-</div>
-  <div class="container dev-favorites">
-    <h2>Menu Section </h2>
-    <p><b>Heading:</b>The Dev Dish Quarterly Menu</p>
-   </div>
-   <h3>Wraps</h3>
-<ul>
-  <li><b>Function Fries</b> Buffalo chicken, romaine lettuce, tomatoes, carrots, ranch, blue cheese </li>
-  <li><b>Loop Wrap</b> Vegetarian. Hummus, romaine lettuce, sun-dried tomatoes, Kalamata olives, feta cheese, tzatziki sauce
-  </li>
-  <li><b>Stack Overflow</b> Jalapeno tortilla, turkey chili, onions, cheddar cheese, avocado</li>
-  <li><b>Recursive Roll</b> Smoked salmon, cream cheese, cucumber, dill, and baby spinach</li>
-  <li><b>Binary Bites</b> Marinated pork, pickled carrots, cucumber, cilantro, mint, fresno chiles, mayonnaise
-  </li>
-  <li><b>Git Wrap</b> Vegetarian. Falafel, red onion, romaine lettuce, tomato, and tzatziki sauce
-  </li>
-  <li><b>Note:</b> All wraps, except Stack Overflow are served on your choice of flour or corn tortilla.</li>
-</ul>
-<h3><b>Sides</b></h3>
-<ul>
-  <li><b>Bug-Free Fries</b> Just a side of fries</li>
-  <li><b>Three-Layer Cheese Fries</b> Fries topped with havarti and dill cheese, pastrami, Russian dressing, pickled onions and peppers, pickled jalapeno</li>
-  <li><b>Golden Ratio Fries</b> Fries topped with havarti and dill cheese, pastrami, Russian dressing, pickled onions and peppers, pickled jalapeno
-  </li>
-  <li><b>Compile Chips</b> Tortilla chips and salsa verde</li>
- </ul>
- </div>
- <div class="container location">
-    <h2>Developer Favorites </h2>
-    <p><b>Heading:</b>The Developer's Favorites</p>
-    <p><b>Paragraph:</b>Enjoy Dev Dish fan favorite menu items at local events or book us for a visit to your neighborhood or for your special occasion.</p>
-    </div>
-  <div class="container hours">
-    <h2>Hours And Location </h2>
-    <ul>
-      <p><b>Heading:</b> Location</p>
-      <p><b>Paragraph:</b> 511 Tristin Isle Park Hudsonton, Michigan</p>
-      <p><b>Hours:</b></p>
-      <li><span class="day"><b>Monday</b></span>  <span class="time">10 AM-7PM</span></li>
-      <li><span class="day"><b>Tuesday</b></span> <span class="time">10:00 AM - 4:00 PM</span></li>
-      <li><span class="day"><b>Wednesday</b></span>  <span class="time">10 AM-7PM</span></li>
-      <li><span class="day"><b>Thursday</b></span>  <span class="time">10 AM-10PM</span></li>
-      <li><span class="day"><b>Friday</b></span>  <span class="time">10 AM-9PM</span></li>
-      <li><span class="day"><b>Saturday</b></span>  <span class="time">12 PM-11PM</span></li>
-      <li><span class="day"><b>Sunday</b></span>  <span class="time">12 PM-11PM</span></li>
-      </ul>
-    </div>
-    <div class="container hours">
-        <h2>Footer  <b>Social Media Icons:</b></h2>
+    <header> 
+        <nav> 
+            <h1>NavBar</h1> 
+            <div class="nav-container">
+                <ul>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="dev-favorites.html">Dev Favorites</a></li> 
+                    <li><a href="location.html">Location</a></li>
+                    <li><a href="hours.html">Hours</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <div class="container hero-image">
+            <h2>Hero Section </h2>
+            <img src="./assets/images/cesar-bretana-gonzalez-a3dhUC7EhYg-unsplash.jpg" alt="hero image" height="200px">
+            <p><b> Title:</b> Dev Dish Food Truck & Restaurant </p>
+        </div> 
+    </header>
+
+    <main>
+        <section class="container about-us">
+            <h2>About Us</h2>
+            <p><b>Heading:</b> About Us</p>
+            <p>What's so great about combining the worlds of coding and cuisine? Dev Dish was founded by two passionate developers who turned their love for software into a culinary adventure. After years of coding by day and cooking by night, they decided to merge their two passions and create something extraordinary.</p>
+            <p>Dev Dish brings a unique twist to the food truck scene, offering a menu full of creative, tech-inspired dishes. Whether you're a tech enthusiast or a food lover, our offerings are designed to satisfy both your appetite and your curiosity.</p>
+            <p>Dev Dish is the brainchild of Alex and Jamie, two friends who met at a hackathon and discovered a shared love for innovative cuisine. With a background in software development and a knack for culinary creativity, they embarked on a journey to deliver delicious, tech-themed dishes to the community.</p>
+        </section>
+
+        <section class="container dev-favorites">
+            <h2>Menu Section </h2>
+            <p><b>Heading:</b>The Dev Dish Quarterly Menu</p>
+
+            <h3>Wraps</h3>
+            <ul>
+                <li><b>Function Fries</b> Buffalo chicken, romaine lettuce, tomatoes, carrots, ranch, blue cheese </li>
+                <li><b>Loop Wrap</b> Vegetarian. Hummus, romaine lettuce, sun-dried tomatoes, Kalamata olives, feta cheese, tzatziki sauce </li>
+                <li><b>Stack Overflow</b> Jalapeno tortilla, turkey chili, onions, cheddar cheese, avocado</li>
+                <li><b>Recursive Roll</b> Smoked salmon, cream cheese, cucumber, dill, and baby spinach</li>
+                <li><b>Binary Bites</b> Marinated pork, pickled carrots, cucumber, cilantro, mint, fresno chiles, mayonnaise </li>
+                <li><b>Git Wrap</b> Vegetarian. Falafel, red onion, romaine lettuce, tomato, and tzatziki sauce </li>
+                <li><b>Note:</b> All wraps, except Stack Overflow are served on your choice of flour or corn tortilla.</li>
+            </ul>
+
+            <h3>Sides</h3>
+            <ul>
+                <li><b>Bug-Free Fries</b> Just a side of fries</li>
+                <li><b>Three-Layer Cheese Fries</b> Fries topped with havarti and dill cheese, pastrami, Russian dressing, pickled onions and peppers, pickled jalapeno</li>
+                <li><b>Golden Ratio Fries</b> Fries topped with havarti and dill cheese, pastrami, Russian dressing, pickled onions and peppers, pickled jalapeno </li>
+                <li><b>Compile Chips</b> Tortilla chips and salsa verde</li>
+            </ul>
+        </section>
+
+        <section class="container location">
+            <h2>Developer Favorites </h2>
+            <p><b>Heading:</b>The Developer's Favorites</p>
+            <p>Enjoy Dev Dish fan favorite menu items at local events or book us for a visit to your neighborhood or for your special occasion.</p>
+        </section>
+
+        <section class="container hours">
+            <h2>Hours And Location </h2>
+            <div> 
+                <p><b>Heading:</b> Location</p>
+                <p>511 Tristin Isle Park Hudsonton, Michigan</p>
+            </div>
+            <div>
+                <p><b>Hours:</b></p>
+                <ul>
+                    <li><span class="day"><b>Monday</b></span>  <span class="time">10 AM-7PM</span></li>
+                    <li><span class="day"><b>Tuesday</b></span> <span class="time">10:00 AM - 4:00 PM</span></li>
+                    <li><span class="day"><b>Wednesday</b></span>  <span class="time">10 AM-7PM</span></li>
+                    <li><span class="day"><b>Thursday</b></span>  <span class="time">10 AM-10PM</span></li>
+                    <li><span class="day"><b>Friday</b></span>  <span class="time">10 AM-9PM</span></li>
+                    <li><span class="day"><b>Saturday</b></span>  <span class="time">12 PM-11PM</span></li>
+                    <li><span class="day"><b>Sunday</b></span>  <span class="time">12 PM-11PM</span></li>
+                </ul>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <h2>Footer  <b>Social Media Icons:</b></h2>
         <ul>
-          <li>Facebook</li>
-          <li>Twitter</li>
-          <li>Instagram</li>
-          </ul>
- </div>
+            <li>Facebook</li>
+            <li>Twitter</li>
+            <li>Instagram</li>
+        </ul>
+    </footer>
 
+</body>
+</html>
 
 
