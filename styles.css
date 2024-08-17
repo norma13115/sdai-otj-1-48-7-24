@@ -1,18 +1,76 @@
+.menu-title {
+    width: 800px; 
+    margin: 0 auto; 
+    text-align: center;
+    font-size: 25px;
+    color: #9c1010;
+  }
 
-nav {
-    background-color: #f0f0f0;
-    padding: 10px;
+  h1 {
+    font-family: "Georgia", serif;
+    font-size: 45px;
+    margin:  0 auto;
+    width:  800px;
+    color: #9c1010;
+    text-align: center;
+  }
+
+  h2 {
+    font-family: "Georgia", serif;
+    font-size: 45px;
+    width: 800px;
+    margin:  0 auto;
+    text-align: center;
+    color: #9c1010;
+  }
+
+  a {
+    color: #9c1010;
+    font-family: "Georgia", serif;
+    font-size: 25px;
+    width: 800px;
+    margin:  0 auto;
+    text-align: center;
+  }
+
+  p {
+    color: #9c1010;
+    font-family: "Georgia", serif;
+    font-size: 25px;
+    width: 800px;
+    margin:  0 auto;
+    text-align: center;
+  }
+ul {
+  color: #991b26;
+    font-family: "Georgia", serif;
+    font-size: 25px;
+    margin:  0 auto;
+    text-align: center;
+    list-style-position: inside;  box */
+   display: flex;
+   width: 800px;
+
 }
-nav ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
+
+body {
+  line-height: 1.6; 
 }
-nav  li {
-    display: inline;
-    margin-right: 20px;
+
+p {
+  margin-bottom: 20px; 
 }
-a {
-    text-decoration: none;
-    color: #333;
+
+h1, h2,  {
+  margin-top: 30px;   
+  margin-bottom: 15px;
+}
+
+ body{
+  background-color: aliceblue;
+ }
+
+ img {
+  display: block; /* Make the image a block-level element */
+  margin: 0 auto; /* Top/bottom margin: 0, left/right margin: auto (centers horizontally) */
 }
