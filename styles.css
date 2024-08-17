@@ -50,7 +50,6 @@ ul {
     list-style-position: inside;  box */
    display: flex;
    width: 800px;
-
 }
 
 body {
@@ -71,6 +70,6 @@ h1, h2,  {
  }
 
  img {
-  display: block; /* Make the image a block-level element */
-  margin: 0 auto; /* Top/bottom margin: 0, left/right margin: auto (centers horizontally) */
+  display: block; 
+  margin: 0 auto; 
 }
