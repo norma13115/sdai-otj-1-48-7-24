@@ -76,13 +76,15 @@ h1, h2,h3  {
   flex-direction: row;
   }
 
-  .dev-favorites menu-title {
+  .dev-favorites-gallery  {
     display: flex; 
-     height: 100px;
-    flex-direction: row;
+     height: 350px;
+     flex-direction: center;
+    width: 350px;
+    margin: 85px;
+    padding: 25px;
+      }
 
-
-  }
   .about-us {
     display: flex; 
     margin: auto; 
