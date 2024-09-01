@@ -22,11 +22,12 @@ function fadeIn(element, duration) {
 
 document.addEventListener('DOMContentLoaded', function() {
     const heroImage = document.querySelector('.hero-image');
-    fadeIn(heroImage, 10000); // Adjust duration as needed
+    fadeIn(heroImage, 4000); // Adjust duration as needed
 
     const qMenu = document.querySelector('.q-menu');
-    fadeIn(qMenu, 10000); // Adjust duration as needed
+    fadeIn(qMenu, 4000); // Adjust duration as needed
 
-    
+    const containerHours = document.querySelector('.container-hours');
+    fadeIn(containerHours, 4000); // Adjust duration as needed
 
 });
